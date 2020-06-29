@@ -1,0 +1,19 @@
+[package]
+name = "actix-clean-path"
+version = "1.0.0"
+authors = ["Naitik Shah <n@daaku.org>"]
+edition = "2018"
+description = "Middleware to clean request's URI, and redirect if necessary."
+readme = "readme.md"
+repository = "https://github.com/daaku/actix-clean-path"
+keywords = ["actix", "middleware"]
+categories = []
+license = "MIT"
+
+[dependencies]
+actix-web = { version = "3.0.0-alpha.3", default-features = false }
+futures-util = "0.3.5"
+path-clean = "0.1"
+
+[dev-dependencies]
+actix-rt = "1.1.1"
